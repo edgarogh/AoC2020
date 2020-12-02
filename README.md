@@ -8,3 +8,9 @@
 lua5.3 main.lua
 ```
 
+## Day 2 - C
+_(was supposed to be ASM but I've never used ASM, and I gave up after spending way too much time on it)_
+
+```bash
+make run
+```
