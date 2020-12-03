@@ -1,0 +1,4 @@
+target/*.*
+target/debug
+target/release/*
+!libday_3.a

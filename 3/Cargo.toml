@@ -1,0 +1,13 @@
+[package]
+name = "day-3"
+version = "0.1.0"
+authors = ["Edgar Onghena <dev@edgar.bzh>"]
+edition = "2018"
+
+[lib]
+crate-type = ["staticlib"]
+
+[features]
+test-compile = []
+
+[dependencies]
