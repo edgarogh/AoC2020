@@ -17,7 +17,7 @@ make run
 
 ## Day 3 - Rust Compile-time-only
 
-Okay, now this is fun. The concept is to implement today's algorithm using Rust's type-checker. Basically, the whole algorithm is implemented using procedural macros, types and traits. This essentially means that:
+Okay, now this is fun. The concept is to implement today's algorithm using Rust's type-checker. Basically, the whole algorithm is implemented using declarative macros, types and traits. This essentially means that:
 
   1. The code looks really weird, because variables become `struct`s and `type`s, functions become `impl`s... Everything is mapped to its compile-time equivent.
   2. Nothing needs to be executed. Indeed, all the computing is done by Rust's compiler. Because the recursive function calls that sum 1s in order to create the final number are marked as `#[inline]`, Rust even optimises this sum and the integer is embeded as-is into the final binary file. This means that you don't even have to run the program, the result is inside its machine code.
