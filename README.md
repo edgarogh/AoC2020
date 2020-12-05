@@ -12,7 +12,8 @@ lua5.3 main.lua
 _(was supposed to be ASM but I've never used ASM, and I gave up after spending way too much time on it)_
 
 ```bash
-make run
+make run-one # Part 1
+make run-two # Part 2
 ```
 
 ## Day 3 - Rust Compile-time-only

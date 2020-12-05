@@ -1,4 +1,8 @@
-main: main.c
+main-one: main.c
+	$(CC) -DPART_ONE $^ -o $@
 
-run: main
-	./main
+main-two: main.c
+	$(CC) -DPART_TWO $^ -o $@
+
+run%: main%
+	./$<
