@@ -40,7 +40,7 @@ make run-one # Part 1
 make run-two # Part 2
 ```
 
-## Day 3 - Rust Compile-time-only
+## Day 3 - Rust Compile-time-only <kbd>(kinda) First time</kbd>
 
 Okay, now this is fun. The concept is to implement today's algorithm using Rust's type-checker. Basically, the whole algorithm is implemented using declarative macros, types and traits. This essentially means that:
 
