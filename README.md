@@ -7,7 +7,7 @@
   * [x] Lua (1)
   * [x] C (2)
   * [x] Rust compile-time (3)
-  * [ ] Elixir (4)
+  * [x] Elixir (4)
   * [ ] Python
   * [ ] JS / TS
   * [ ] OCaml
