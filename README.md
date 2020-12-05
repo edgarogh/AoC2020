@@ -84,3 +84,15 @@ Disassembly of section .text.get_trees:
 where `[[[REDACTED]]]` is the hex representation of the result. You could statically link it to another crate, or even a C program if you want, and call the function `get_trees()` to obtain the constant (`u64`).
 
 Last thing: the input file is a little bit processed by `build.rs`. Although I'd consider too much preprocessing as cheating, I'm just adding spaces between characters and wrapping each line between square brackets so it's easier to parse with Rust's procedural macros. This is because detecting line breaks is impossible and I don't want to hardcode the expected line length, and because the dot (`.`) tokens inside the input file – if not separated by spaces – will merge into a range operator/expression (`..`) which makes the processing a bit harder and doesn't really add value to the challenge.
+
+## Day 4 - Elixir <kbd>First time</kbd>
+
+```bash
+# (If you don't want to lose 1h installing Elixir with 3 different broken
+# methods:
+nix-shell -p elixir
+# )
+
+# Else/Then:
+elixir main.exs
+```
