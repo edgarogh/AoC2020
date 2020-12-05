@@ -2,6 +2,30 @@
 
 **Challenge: 1 language a day**
 
+## Language ideas
+
+  * [x] Lua (1)
+  * [x] C (2)
+  * [x] Rust compile-time (3)
+  * [ ] Elixir (4)
+  * [ ] Python
+  * [ ] JS / TS
+  * [ ] OCaml
+  * [ ] Haskell
+  * [ ] Kotlin
+  * [ ] Bash
+  * [ ] C#
+  * [ ] Go
+  * [ ] PHP
+  * [ ] Swift
+  * [ ] Dart
+  * [ ] Ada
+  * [ ] Groovy
+  * [ ] Scratch
+  * [ ] BF or other unreadable esolang
+  * [ ] Rust `edition="cursed"`
+  * [ ] Rust (24)
+
 ## Day 1 - Lua
 
 ```bash
