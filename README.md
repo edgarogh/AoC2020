@@ -9,12 +9,12 @@
   * [x] Rust compile-time (3)
   * [x] Elixir (4)
   * [x] Go (5)
+  * [x] Bash / Unix (6)
   * [ ] Python
   * [ ] JS / TS
   * [ ] OCaml
   * [ ] Haskell
   * [ ] Kotlin
-  * [ ] Bash
   * [ ] C#
   * [ ] PHP
   * [ ] Swift
@@ -105,4 +105,10 @@ _And why does this compiler care so much about unused variables to the point of 
 
 ```
 go run main.go
+```
+
+## Day 6 - Bash / standard Unix
+
+```
+./main.sh
 ```
