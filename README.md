@@ -8,6 +8,7 @@
   * [x] C (2)
   * [x] Rust compile-time (3)
   * [x] Elixir (4)
+  * [x] Go (5)
   * [ ] Python
   * [ ] JS / TS
   * [ ] OCaml
@@ -15,7 +16,6 @@
   * [ ] Kotlin
   * [ ] Bash
   * [ ] C#
-  * [ ] Go
   * [ ] PHP
   * [ ] Swift
   * [ ] Dart
@@ -95,4 +95,14 @@ nix-shell -p elixir
 
 # Else/Then:
 elixir main.exs
+```
+
+## Day 5 - Golang <kbd>(kinda) First time</kbd>
+
+_I don't really like this language. It's just C with a more coherent syntax, dynamic dispatch and garbage collector. It's a weird mix, really. And under the name of "abstraction (I guess) they've removed useful and completely safe parts of C's standard library (`feof` where are you ? I had to add a useless character at the end of the input file so that "Read" has something to read and doesn't fail (it could just return 0 but errors instead))._
+
+_And why does this compiler care so much about unused variables to the point of aborting ?_
+
+```
+go run main.go
 ```
